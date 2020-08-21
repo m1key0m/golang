@@ -1,0 +1,11 @@
+var x init = 1
+var y init
+var ip *int // ip is pointer to int 
+
+ip = &x  // ip now points to x
+y = *ip  // y is now 1
+
+
+
+ptr := new(int)
+*prt = 3
