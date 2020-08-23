@@ -2,8 +2,16 @@ package main
 
 import "fmt"
 
+var x = 4
+
 func main() {
-	fmt.Printf("안녕, Hello Mike")
+	fmt.Printf("Test\n")
+	f()
+
 }
 
-// Mike More Stuff
+func f() {
+	for i := 0; i < 10; i++ {
+		fmt.Printf("hi ")
+	}
+}
